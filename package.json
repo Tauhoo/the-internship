@@ -1,0 +1,9 @@
+{
+  "name": "the-internship",
+  "version": "1.0.0",
+  "description": "The internship's homework.",
+  "main": "index.js",
+  "repository": "https://github.com/Tauhoo/the-internship",
+  "author": "wachirawit wacharak",
+  "license": "MIT"
+}
