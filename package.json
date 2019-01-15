@@ -5,5 +5,12 @@
   "main": "index.js",
   "repository": "https://github.com/Tauhoo/the-internship",
   "author": "wachirawit wacharak",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  },
+  "scripts": {
+    "hangman": "node ./hangman/index.js",
+    "weather": "node ./weather/index.js"
+  }
 }
