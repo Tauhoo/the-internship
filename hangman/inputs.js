@@ -36,13 +36,13 @@ const getGuess = ({ exGuess, guessWrong, exScore }, answer) =>
       guessWrong}\n>`
     let input = await getInput(exGuessDisplay)
     while (!/^[a-zA-Z]$/.test(input)) {
-      input = await getInput('Put only a - z and A - Z.')
+      input = await getInput('Put only a - z and A - Z.\n>')
     }
 
     input = input.toLowerCase()
 
     while (exGuess.includes(input)) {
-      input = await getInput('You already quess this letter try another.')
+      input = await getInput('You already quess this letter try another.\n>')
     }
 
     let newGuess
@@ -61,6 +61,6 @@ const getGuess = ({ exGuess, guessWrong, exScore }, answer) =>
   })
 
 const end = () => {
-  readline.close
+  readline.close()
 }
 module.exports = { askCategory, getGuess, end }

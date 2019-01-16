@@ -30,6 +30,6 @@ score : ${data.exScore}/${answer.length}
   let weather, country
   weather = await readFile('./hangman/country.csv', 'utf8').then(formData)
   country = await readFile('./hangman/sport.csv', 'utf8').then(formData)
-  inGame([weather, country])
+  await inGame([weather, country])
   end()
 })()
