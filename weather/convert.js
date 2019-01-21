@@ -21,13 +21,16 @@ const deXml = (elem, round, islast) => {
     let { name, attributes, elements } = elem
     text += space + `"${name}":{\n`
 
+    if (elements != undefined && elements[0].type === 'text')
+      return space + `"${name}":"${elements[0].text}"${islast ? '' : ','}\n`
+
     if (attributes != undefined) {
       let keys = Object.keys(attributes)
       keys.forEach((val, index) => {
         text +=
           space +
-          `    "${val}":"${attributes[val]}"${
-            index === keys.length - 1 ? '' : ','
+          `  "${val}":"${attributes[val]}"${
+            index === keys.length - 1 && elements == undefined ? '' : ','
           }\n`
       })
     }
