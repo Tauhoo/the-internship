@@ -1,6 +1,6 @@
-#The intership's homework
+# The intership's homework
 
-##วิธีติดตั้ง
+## วิธีติดตั้ง
 
 1. ต้องติดตั้ง nod.js ก่อน
 2. clone project
@@ -12,23 +12,15 @@ git clone https://github.com/Tauhoo/the-internship.git
 3. ติดตั้ง dependencies
 
 ```bash
-ัyarn
-```
+yarn #สำหรับ yarn
 
-หรือ
-
-```bash
-npm install
+npm install #สำหรับ ืยท
 ```
 
 4. ติดตั้ง CLI
 
 ```bash
-yarn link
-```
+yarn link #สำหรับ yarn
 
-หรือ
-
-```bash
-npm link
+npm link #สำหรับ npm
 ```
