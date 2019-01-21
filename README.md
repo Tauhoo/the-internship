@@ -1,5 +1,9 @@
 # The intership's homework
 
+นาย วชิรวิทย์ เวชรักษ์
+อีเมล tauhoo_ice@hotmail.com
+เบอร์โทรศัพท์ 0643233512
+
 ## วิธีติดตั้ง
 
 1. ต้องติดตั้ง nod.js ก่อน
@@ -27,7 +31,7 @@ npm link #สำหรับ npm
 
 ## วิธีใช้
 
-# Hangman
+### Hangman
 
 ให้เข้าไปที่โปรเจ็ค ( โฟลเดอร์ the-intership ) แล้วพิม command ด้านล้างเพื่อเริ่มเกม
 
@@ -35,12 +39,12 @@ npm link #สำหรับ npm
 yarn run hangman
 ```
 
-# Weather
+### Weather
 
 ให้เข้าไปที่โปรเจ็คแล้วพิม command ด้านล้างเพื่อเริ่มเกม
 
 ```bash
 weather <filename> <file output name>
 #ตัวอย่าง
-weather test.xml ./Document/test.js
+weather test.xml ./Document/test.json
 ```
