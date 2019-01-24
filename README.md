@@ -57,6 +57,7 @@ weather test.xml ./Document/test.json
 - https://stackoverflow.com/questions/43638105/how-to-get-synchronous-readline-or-simulate-it-using-async-in-nodejs
 - https://stackoverflow.com/questions/4351521/how-do-i-pass-command-line-arguments-to-a-node-js-program
 - https://www.npmjs.com/package/xml2js
+- https://www.sitepoint.com/javascript-command-line-interface-cli-node-js/
 
 ### Library
 
