@@ -6,7 +6,7 @@
 
 ## วิธีติดตั้ง
 
-1. ต้องติดตั้ง nod.js ก่อน
+1. ต้องติดตั้ง node.js ก่อน ( https://nodejs.org/en/ )
 2. clone project
 
 ```bash
